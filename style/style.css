@@ -1,0 +1,203 @@
+body {
+    background-color: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card {
+    margin-top: 50px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.logo {
+    width: 150px;
+}
+
+.footer-links a {
+    color: #6c757d;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.navbar-nav .nav-link {
+    color: #333;
+}
+
+.navbar-nav .nav-link.active {
+    color: #bada55;
+}
+
+.card img {
+    max-height: 200px;
+}
+
+.footer-links a {
+    color: #666;
+    margin: 0 10px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+}
+
+.login-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.login-container img {
+    display: block;
+    margin: 0 auto 20px;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.form-box {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fff;
+}
+
+.form-box .section-title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-box .section-title h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.form-box .section-title p {
+    margin-bottom: 0;
+}
+
+.form-box .form-group label {
+    font-weight: bold;
+}
+
+.form-box .btn-primary {
+    width: 100%;
+}
+
+/* --------------------------------------------- */
+
+f.custom-form {
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.admin-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 10px 10px 0 0;
+}
+
+.admin-header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.admin-header .admin-info {
+    display: flex;
+    align-items: center;
+}
+
+.admin-header .admin-info img {
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
+.form-control:disabled,
+.form-control[readonly] {
+    background-color: #e9ecef;
+    opacity: 1;
+}
+
+.action-buttons,
+.table-buttons,
+.field-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.btn-group-vertical .btn {
+    margin-bottom: 10px;
+}
+
+.action-buttons button,
+.table-buttons button,
+.field-buttons button {
+    flex: 1 1 calc(25% - 10px);
+    max-width: calc(25% - 10px);
+    margin-bottom: 10px;
+}
+
+.action-buttons {
+    margin-bottom: 30px;
+}
+
+.btn-group-vertical .btn {
+    width: 100%;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 100%;
+}
